@@ -1,0 +1,12 @@
+{
+  "name": "apollo-2022-server",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "repository": "git@github.com:joometa/apollo-2022-server.git",
+  "author": "joometa <jjlee1623@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
