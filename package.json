@@ -2,11 +2,19 @@
   "name": "apollo-2022-server",
   "version": "1.0.0",
   "description": "Movie API with Graphql",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "git@github.com:joometa/apollo-2022-server.git",
   "author": "joometa <jjlee1623@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"  
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security"
   }
 }
